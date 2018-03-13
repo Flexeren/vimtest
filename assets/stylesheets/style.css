@@ -11,8 +11,18 @@ body {
 	margin: 0 auto;
 }
 
-p img {
+.text-wrapper p {
+	max-width: 450px;
+	margin: 0 auto;
+}
+.text-wrapper img {
 	max-height: 500px;
+}
+.text-wrapper p ~ img {
     margin: 0 15px 15px 0;
     float: left;
+}
+.text-wrapper p + img {
+	margin: 0 0 15px 15px;
+    float: right;
 }
