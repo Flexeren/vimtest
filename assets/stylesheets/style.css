@@ -10,3 +10,9 @@ body {
 	max-width: 80%;
 	margin: 0 auto;
 }
+
+p img {
+	max-height: 500px;
+    margin: 0 15px 15px 0;
+    float: left;
+}
