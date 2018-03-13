@@ -11,18 +11,21 @@ body {
 	margin: 0 auto;
 }
 
+.text-wrapper {
+	text-align: center;
+}
 .text-wrapper p {
+	display: inline-block;
 	max-width: 450px;
-	margin: 0 auto;
+	margin: 0;
+	text-align: left;
+	vertical-align: text-top;
 }
 .text-wrapper img {
 	max-height: 500px;
-}
-.text-wrapper p ~ img {
-    margin: 0 15px 15px 0;
-    float: left;
+	margin: 0 15px 15px 0;
+	vertical-align: text-top;
 }
 .text-wrapper p + img {
 	margin: 0 0 15px 15px;
-    float: right;
 }
